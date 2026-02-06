@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 
     for(int i=1;i<=3;i++)
@@ -9,4 +9,5 @@ void main()
         printf("\n");}
     }
     //printf("%d",i);
+    return 0;
 }
