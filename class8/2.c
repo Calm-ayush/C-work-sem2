@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+//1
 int main (){
     float a,cal=0;
     printf("Enter Number of Terms\n");
