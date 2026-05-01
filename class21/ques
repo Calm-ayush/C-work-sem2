@@ -1,0 +1,2 @@
+//WAP to generate all the permutations of a given string, eg: cat = [act,tac,...]
+//Write a recursive c function to check whether a given string is palindrome, ignore case and non-alphabetical characters
