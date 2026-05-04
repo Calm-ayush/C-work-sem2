@@ -3,6 +3,6 @@
 #include <stdio.h>
 int main(){
     char st;
-    scanf("%c",&ch);
+    scanf("%c",&st);
       
 }
