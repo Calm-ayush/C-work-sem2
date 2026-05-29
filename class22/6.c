@@ -1,12 +1,10 @@
-/* Return 1 if kth bit is ON
-   Return 0 if kth bit is OFF */
 
 #include <stdio.h>
 
-int checkKthBit(int n, int k)
+int toggleKthBit(int n, int k)
 {
-    int m = 1<<k;
-    return (m&n)!=0;
+   int m= 1<<k;
+   return m^n;
 }
 
 int main()
@@ -19,7 +17,7 @@ int main()
         int n,k;
         scanf("%d %d",&n,&k);
 
-        printf("%d\n", checkKthBit(n,k));
+        printf("%d\n", toggleKthBit(n,k));
     }
 
     return 0;
