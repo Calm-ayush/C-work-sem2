@@ -2,10 +2,10 @@
 
 int main(){
     FILE *f1;
-    char fn[500];
-    scanf("%s",fn);
+    char fname[500];
+    scanf("%s",fname);
 
-    f1=fopen(fn,"w");
+    f1=fopen(fname,"w");
 
     if(f1==NULL){
         printf("not available");
