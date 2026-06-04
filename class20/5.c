@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int abc(const void *a,const void *b){
-    return(*(int*)b-*(int*)a);
+int abc(const void *c,const void *d){
+    return(*(int*)c-*(int*)d);
 }
 int main(){
     int n;
