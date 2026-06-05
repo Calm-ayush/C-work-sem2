@@ -8,7 +8,7 @@ int main(){
     f1=fopen(fname,"w");
 
     if(f1==NULL){
-        printf("not available");
+        printf("not Available");
         return 1;
     }
 
