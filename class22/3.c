@@ -11,10 +11,10 @@ int checkKthBit(int n, int k)
 
 int main()
 {
-    int t;
-    scanf("%d",&t);
+    int T;
+    scanf("%d",&T);
 
-    while(t--)
+    while(T--)
     {
         int n,k;
         scanf("%d %d",&n,&k);
