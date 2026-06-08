@@ -3,14 +3,14 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int *p=arr;
+    int *pointer=arr;
 
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
 
     for(int i=0;i<n;i++){
-        printf("%d ",*(p+i));
+        printf("%d ",*(pointer+i));
     }
 
 }
