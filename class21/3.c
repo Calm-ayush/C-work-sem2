@@ -14,7 +14,7 @@ int main()
     int n;
     scanf("%d",&n);
 
-    struct worker s[n],temp;
+    struct worker s[n],temp1;
 
     for(int i=0;i<n;i++){
         scanf("%s",s[i].name);
@@ -25,15 +25,15 @@ int main()
 for(int i=0;i<n;i++){
        for(int j=0;j<n;j++){
         if(s[i].age<s[j].age){
-            temp=s[i];
+            temp1=s[i];
             s[i]=s[j];
-            s[j]=temp;
+            s[j]=temp1;
         }
         else if(s[i].age==s[j].age){
             if(s[i].salary>s[j].salary){
-                temp=s[i];
+                temp1=s[i];
                 s[i]=s[j];
-                s[j]=temp;
+                s[j]=temp1;
             }
         }
     } 
